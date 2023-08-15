@@ -1,0 +1,19 @@
+@tailwind base;
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    display: none;
+  }
+*::-webkit-scrollbar {
+display: none;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply font-primary bg-gray-200
+    }
+}
+
